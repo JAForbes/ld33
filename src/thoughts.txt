@@ -1,0 +1,72 @@
+Make a game in minutes:
+
+- No physics
+- No Collision
+
+	- Menus only?
+		- Spacetrader w/o real time combat?
+			- Combat?
+				- Terra style?
+					- Simpler
+						- (Aggressive|Defensive|Mixed)
+
+							- Aggressive:
+								- 80% Attack 20% Shield
+							- Defensive
+								- 80% Shield 20% Attack
+							- Mixed
+								- 50% Shield 50% Attack
+
+							Shield:
+								Deflects 100% of hit.
+									- Uses energy if not attacked
+									- Absorbs energy if attacked
+							Attack:
+								- Depletes energy
+								- Depletes opponents health
+								- Does (energy) amount of damage
+
+							Energy
+								- Recharges 1 unit per turn
+			- Navgiation
+				- Starmap
+					- Planet information
+					- Connected nodes
+				- Solar System
+					- Dock at planets/stations
+						- Buy Energy
+						- Upgrade weapons/reactor/sheilds
+						- Buy / Sell goods
+
+	- Phone resolution
+		- Single column
+		- Limited options
+		- Multiple views
+
+
+Technology
+----------
+
+MVC
+	- Good at GUIs
+	- Not so good at interacting systems
+
+ECS
+
+	- Good for interacting systems
+	- Not so good at GUIs
+
+Systems:
+
+	- Combat
+	- Navigation
+	- Menus
+	- Trading
+
+Models:
+	- Player
+	- Enemy
+	- Planet
+	- System
+	- Galaxy
+

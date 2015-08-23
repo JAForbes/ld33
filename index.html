@@ -1,0 +1,49 @@
+
+
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>LD33</title>
+		<meta http-equiv="x-ua-compatible" content="IE=edge">
+		<meta name="viewport" content="user-scalable=no,width=device-width" />
+		<style>
+			* {
+				-webkit-user-select : none;
+				cursor: default;
+				color: white;
+			}
+			a {
+				color: white;
+			}
+			button {
+				color: black;
+				width:100%;
+			}
+			body,html {
+				margin:0;
+				width: 100%;
+				height: 100%;
+				background-color: black;
+			}
+			@media screen and (max-width:400px) {
+			    @-ms-viewport{
+			        width:320px;
+			    }
+			}
+			#header_pane {
+				height: 10%;
+			}
+			#content_pane {
+				height: 90%;
+			}
+		</style>
+	</head>
+	<body>
+
+		<div id="header_pane"></div>
+		<div id="content_pane"></div>
+
+			<script> require("./src/main.js") </script>
+	</body>
+</html>

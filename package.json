@@ -1,0 +1,24 @@
+{
+  "name": "LD33",
+  "version": "0.0.0",
+  "description": "A project planning app for the NBN Project",
+  "main": "src/electron.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prod": "electron .",
+    "dev": "electron . -d"
+  },
+  "author": "james.a.forbes@gmail.com <=> (http://james-forbes.com)",
+  "dependencies": {
+    "bluebird": "^2.9.34",
+    "bootstrap": "^3.3.5",
+    "commander": "^2.8.1",
+    "guid": "0.0.12",
+    "lodash": "^3.10.1",
+    "mithril": "^0.2.0",
+    "watch": "^0.16.0"
+  },
+  "devDependencies": {
+    "electron-prebuilt": "^0.30.4"
+  }
+}
